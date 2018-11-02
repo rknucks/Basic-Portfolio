@@ -1,11 +1,16 @@
-body {
+ html {
+    height: 100%;
+ }
+ 
+ body {
     
-    border: auto;
-    margin: auto;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
     background-image: url("http://pages.stern.nyu.edu/~rct279/websys/Natural-Paper-Background.jpg");
     background-repeat: no-repeat;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-
+    
 
 }
 
@@ -34,8 +39,7 @@ header {
     font-family: Georgia, Times, "Times New Roman", serif;
     border-color: #ccc;
     height: 90px;
-    
-    
+    margin: 0;
 }
 
 .buttons {
@@ -43,13 +47,12 @@ header {
     margin-left: 60%;
     padding-top: 30px;
     color: #ccc;
-
 }
 
 ul {
     list-style-type: none;
     font: Arial;
-    color: #ccc;
+    color: #777777;
 }
 
 
@@ -61,8 +64,7 @@ li a {
     padding-right: 10px;
     padding-left: 10px;
     text-decoration: none;
-    color: gray;
-    
+    color: #777777;
 }
 
 li {
@@ -74,7 +76,7 @@ li+li {
 
 .aboutme {
     width: 66%;
-    height: 530px;
+    min-height: 240px;
     margin: 30px auto 18px auto;
     background-color: white;
     border: 1px solid #ccc;
@@ -114,20 +116,62 @@ img {
 }
 
 p {
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-
+    margin: 10px;
+    color: #777777;
 }
-footer {
-    height: 50px;
-    background-color: gray;
-    color: white;
-    border-top: 5px solid #4aaaa5;
+
+.wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  }
+ 
+ 
+  .footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
     text-align: center;
-    padding-top: 25px;
+    color: white;
+    background-color: rgb(78, 77, 77);
+    height: 50px;
+    border-top: 5px solid #4aaaa5;
+    padding-top: 35px;
+    width: 100%;
+    
+    }
 
+.contactme {
+    width: 480px;
+    min-height: 200px;
+    border: 5px #ccc;
+    background: white;
+    margin-left: 33.3%;
+    margin-top: 25px;
+    padding: 18px;
+
+
+    
 }
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+}
+
+
+
 
 
 
