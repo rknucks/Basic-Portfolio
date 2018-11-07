@@ -88,11 +88,12 @@ li+li {
     
 }
 .port {
-    width: 66%;
-    height: 800px;
+    width: 746px;
+    height: 850px;
     margin: 30px auto 18px auto;
     background-color: white;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
+    padding: 0 33px 0 5px;
 }
 
 .about {
@@ -115,7 +116,7 @@ section {
 
 
 img {
-    float: left;
+    
     margin-left: 18px;
     margin-right: 15px;
     margin-top: 18px;
@@ -194,7 +195,7 @@ div.gallery {
     width: 200px;
     height: 200px;
     border: 2px solid black;
-    transform: rotate(90deg) 
+     
 
 }
 #fish {
@@ -220,49 +221,74 @@ div.gallery {
     width: 200px;
     border: 2px solid black;
     clear: left;
-    transform: rotate(90deg)
+    transform: rotate(-90deg)
 }
 
 
 
 
 .container {
+    width: 253px;
+    height: 220px;
     float: left;
 }
 
-.containernext [
-    clear: both
-]
+.move {
+    clear: left;
+}
+#hill {
+    float: left;
+}
 
 figcaption {
     
     color: white;
-    width: 170px;
-    height: 241px;
+    
     position: relative;
     margin-left: 20px;
 }
+
 #benson {
     background: #4aaaa5;
     color: white;
     position: relative;
     top: -33px;
-    padding: 8px 37px;
-    margin-left: 19px;
+    padding: 4px 35px;
+    margin-left: 3px;
+    
 }
 #trout {
     background: #4aaaa5;
     color: white;
     position: relative;
-    top: -33px;
-    padding: 8px 33px;
-    margin-left: 19px;
+    top: -32px;
+    padding: 5px 32px;
+    margin-left: 1px;
 }
 #denver {
     background: #4aaaa5;
     color: white;
     position: relative;
     top: -33px;
-    padding: 0px 41px 10px;
-    margin-left: 19px; 
+    padding: 2px 39px;
+    margin-left: 3px;
 }
+#pelican {
+    background: #4aaaa5;
+    color: white;
+    position: relative;
+    top: -33px;
+    padding: 8px 27px;
+    margin-left: 1px;
+
+}
+#biltmore {
+    background: #4aaaa5;
+    color: white;
+    position: relative;
+    top: -33px;
+    padding: 8px 38px;
+    margin-left: 0px;
+}
+
+
