@@ -85,6 +85,7 @@ li+li {
     margin: 30px auto 18px auto;
     background-color: white;
     border: 1px solid #ccc;
+    padding: 15px;
     
 }
 .port {
@@ -112,7 +113,11 @@ section {
     margin: 0 20px;
 }
 
-
+.box {
+    width: 253px;
+    height: 238px;
+    float: left;
+}
 
 
 img {
@@ -122,11 +127,13 @@ img {
     margin-top: 18px;
     width: 16%;
     height: 36%;
+    float: left;
 }
 
 p {
     margin: 10px;
     color: #777777;
+    
 }
 
 .wrapper {
@@ -152,8 +159,8 @@ p {
     }
 
 .contactme {
-    width: 480px;
-    min-height: 200px;
+    width: 391px;
+    height: 458px;
     border: 5px #ccc;
     background: white;
     margin-left: 33.3%;
@@ -229,7 +236,7 @@ div.gallery {
 
 .container {
     width: 253px;
-    height: 220px;
+    height: 500px;
     float: left;
 }
 
