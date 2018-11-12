@@ -166,7 +166,7 @@ p {
  
  
   .footer {
-    rid-row-start: 2;
+    grid-row-start: 2;
     grid-row-end: 3;
     text-align: center;
     color: white;
@@ -174,7 +174,7 @@ p {
     height: 50px;
     border-top: 5px solid #4aaaa5;
     padding-top: 35px;
-    width: 1527px;
+    width: 100%;
     margin-left: -10px;
     padding-right: 100px;
 }
